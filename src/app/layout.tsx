@@ -3,7 +3,7 @@ import "./globals.css";
 import type { Metadata } from "next";
 import { Inter, Maven_Pro } from "next/font/google";
 import Wrapper from "@/components/shared/Wrapper";
-import { NavbarMenuProvider } from "@/components/store/NavbarMenu";
+import { NavbarMenuProvider } from "@/components/store/NavbarMenuContext";
 
 const inter = Maven_Pro({
   subsets: ["latin"],

@@ -6,15 +6,16 @@ import {
   NavbarMenuProvider,
   NavbarContext,
   useMobileView,
-} from "@/components/store/NavbarMenu";
+} from "@/components/store/NavbarMenuContext";
 
 type Props = {};
 
-const MobileViewMenu = (props: Props) => {
+const MobileViewOpen = (props: Props) => {
   const { isOpenMobileView, handleIsOpenMobileView } =
     useMobileView() as NavbarContext;
   return (
     <div>
+      {/* Symbol to show or close menu */}
       <div onClick={() => handleIsOpenMobileView(!isOpenMobileView)}>
         {isOpenMobileView ? <HiOutlineX /> : <RiMenu3Fill />}
       </div>
@@ -22,4 +23,4 @@ const MobileViewMenu = (props: Props) => {
   );
 };
 
-export default MobileViewMenu;
+export default MobileViewOpen;
