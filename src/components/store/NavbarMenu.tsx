@@ -1,21 +1,18 @@
 "use client";
-import { createContext, ReactNode, useState } from "react";
+import { createContext, ReactNode, useContext, useState } from "react";
 
-type Props = {
-  children: ReactNode;
-};
-
-type NavbarContext = {
+export type NavbarContext = {
   isOpenMobileView: boolean;
   handleIsOpenMobileView: (isOpen: boolean) => void;
 };
 
 export const navbarContext = createContext<NavbarContext | null>(null);
 
-const NavbarMenuProvider = ({ children }: Props) => {
+const NavbarMenuProvider = ({ children }: { children: ReactNode }) => {
   const [isOpenMobileView, setIsOpenMobileView] = useState<boolean>(false);
 
   const handleIsOpenMobileView = (isOpen: boolean): void => {
+    console.log("handleIsOpenMobileView", isOpenMobileView);
     setIsOpenMobileView(isOpen);
   };
   return (
@@ -27,4 +24,9 @@ const NavbarMenuProvider = ({ children }: Props) => {
   );
 };
 
-export default NavbarMenuProvider;
+const useMobileView = () => {
+  const mobileviewContext = useContext(navbarContext);
+  return mobileviewContext;
+};
+
+export { NavbarMenuProvider, useMobileView };
