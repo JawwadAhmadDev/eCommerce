@@ -3,6 +3,7 @@ import "./globals.css";
 import type { Metadata } from "next";
 import { Inter, Maven_Pro } from "next/font/google";
 import Wrapper from "@/components/shared/Wrapper";
+import NavbarMenuProvider from "@/components/store/NavbarMenu";
 
 const inter = Maven_Pro({
   subsets: ["latin"],
@@ -23,7 +24,9 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <Wrapper>
-          <Navbar />
+          <NavbarMenuProvider>
+            <Navbar />
+          </NavbarMenuProvider>
           {children}
         </Wrapper>
       </body>
