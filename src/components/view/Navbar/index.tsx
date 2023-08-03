@@ -11,6 +11,7 @@ import { RiArrowDownSFill } from "react-icons/ri";
 import DropDown from "./DropDown";
 import MobileViewMenu from "./MobileView/MobileViewMenu";
 import MobileViewOpen from "./MobileView/IsOpen";
+import Cart from "./Cart";
 
 const Navbar = () => {
   return (
@@ -69,12 +70,7 @@ const Navbar = () => {
         {/* Cart Button */}
         <div className="hidden lg:block">
           {/* Outer div */}
-          <div className="relative w-12 h-12 bg-gray-200 rounded-full flex justify-center items-center cursor-pointer">
-            <div className="w-5 h-5 flex justify-center items-center font-medium text-white text-xs absolute top-1 right-1 bg-red-500 rounded-full">
-              3
-            </div>
-            <FiShoppingCart size={21} />
-          </div>
+          <Cart />
         </div>
 
         {/* Menu in case of small screen */}

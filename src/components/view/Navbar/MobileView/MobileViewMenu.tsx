@@ -9,6 +9,7 @@ import {
 } from "@/components/utils/NavbarDataAndTypes";
 import Link from "next/link";
 import React from "react";
+import Cart from "../Cart";
 
 type Props = {};
 
@@ -19,14 +20,20 @@ const MobileViewMenu = (_props: Props) => {
   return (
     <div>
       {isOpenMobileView && (
-        <div className="mt-8 h-screen text-center mx-auto flex flex-col space-y-8">
-          {navbarItems.map((_navbarItem) => {
-            return (
-              <div>
-                <Link href={_navbarItem.href}>{_navbarItem.label}</Link>
-              </div>
-            );
-          })}
+        <div>
+          {/* Cart */}
+          <div className="flex justify-center my-5">
+            <Cart />
+          </div>
+          <div className="mt-8 h-screen text-center mx-auto flex flex-col space-y-4">
+            {navbarItems.map((_navbarItem) => {
+              return (
+                <div>
+                  <Link href={_navbarItem.href}>{_navbarItem.label}</Link>
+                </div>
+              );
+            })}
+          </div>
         </div>
       )}
     </div>

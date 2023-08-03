@@ -17,7 +17,11 @@ const MobileViewOpen = (props: Props) => {
     <div>
       {/* Symbol to show or close menu */}
       <div onClick={() => handleIsOpenMobileView(!isOpenMobileView)}>
-        {isOpenMobileView ? <HiOutlineX /> : <RiMenu3Fill />}
+        {isOpenMobileView ? (
+          <HiOutlineX size={25} />
+        ) : (
+          <RiMenu3Fill size={25} />
+        )}
       </div>
     </div>
   );
