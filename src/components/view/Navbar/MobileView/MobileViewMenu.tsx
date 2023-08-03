@@ -23,9 +23,9 @@ const MobileViewMenu = (_props: Props) => {
             <Cart />
           </div>
           <div className="mt-8 h-screen text-center mx-auto flex flex-col space-y-4">
-            {navbarItems.map((_navbarItem) => {
+            {navbarItems.map((_navbarItem, index) => {
               return (
-                <div>
+                <div key={index}>
                   <Link href={_navbarItem.href}>{_navbarItem.label}</Link>
                 </div>
               );
