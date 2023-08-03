@@ -6,7 +6,7 @@ import {
   NavbarMenuProvider,
   NavbarContext,
   useMobileView,
-} from "@/components/store/NavbarMenuContext";
+} from "@/app/store/NavbarMenuContext";
 
 type Props = {};
 

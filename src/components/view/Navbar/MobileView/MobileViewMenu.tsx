@@ -1,8 +1,5 @@
 "use client";
-import {
-  NavbarContext,
-  useMobileView,
-} from "@/components/store/NavbarMenuContext";
+import { NavbarContext, useMobileView } from "@/app/store/NavbarMenuContext";
 import {
   NavbarItemType,
   navbarItems,
