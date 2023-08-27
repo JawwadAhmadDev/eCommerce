@@ -5,7 +5,7 @@ type Props = {};
 
 const LeftPart = (props: Props) => {
   return (
-    <div className="flex flex-col gap-y-10 justify-between">
+    <div className="flex flex-col gap-y-10 pt-12 pb-4 justify-between">
       {/* Sale Logo */}
       <SaleButton />
 
@@ -13,7 +13,7 @@ const LeftPart = (props: Props) => {
       <h1 className="text-6xl font-bold">An Industrial Take on Streetwear</h1>
 
       {/* Paragraph */}
-      <p className="text-gray-600 sm:max-w-[80%]">
+      <p className="text-gray-600 text-lg sm:max-w-[80%] lg:max-w-[55%]">
         Anyone can beat you but no one can beat your outfit as long as you wear
         Dine outfits.
       </p>
