@@ -1,4 +1,3 @@
-"use client";
 import SaleButton from "./SaleButton";
 import Sponsers from "./Sponsers";
 import StartShopping from "./StartShopping";
