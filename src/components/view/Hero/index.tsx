@@ -8,7 +8,7 @@ const Hero = (props: Props) => {
   return (
     <div>
       {/* Outer Div */}
-      <div className="grid grid-cols-2">
+      <div className="md:grid md:grid-cols-2">
         <LeftPart />
         <RightPart />
       </div>
