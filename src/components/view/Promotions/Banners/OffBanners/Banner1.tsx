@@ -5,10 +5,10 @@ type Props = {};
 
 const Banner1 = (props: Props) => {
   return (
-    <div className="bg-[#d6d6d8] px-8 pt-8 flex flex-col justify-between items-center">
+    <div className="bg-[#d6d6d8] px-8 pt-8 flex flex-col justify-between items-center md:bg-black">
       {/* Heading */}
       <div>
-        <h3 className="text-[1.75rem] uppercase font-extrabold tracking-wide">
+        <h3 className="text-[1.75rem] uppercase font-extrabold tracking-wide ">
           Get Up To <span className="text-4xl tracking-wider">60%</span>
         </h3>
         <p className="text-lg tracking-wide font-normal">
