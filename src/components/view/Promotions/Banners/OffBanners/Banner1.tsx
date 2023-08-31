@@ -5,7 +5,7 @@ type Props = {};
 
 const Banner1 = (props: Props) => {
   return (
-    <div className="bg-[#d6d6d8] px-8 pt-8 flex flex-col justify-between items-center md:bg-black">
+    <div className="bg-[#d6d6d8] px-8 pt-8 flex flex-col justify-between items-center xs:flex-row xs:px-8 sm:pt-0">
       {/* Heading */}
       <div>
         <h3 className="text-[1.75rem] uppercase font-extrabold tracking-wide ">
@@ -21,6 +21,7 @@ const Banner1 = (props: Props) => {
         alt="off picture 1"
         width="200"
         height="180"
+        className="sm:w-[250px] md:h-[220px]"
       ></Image>
     </div>
   );
