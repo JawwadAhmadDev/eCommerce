@@ -7,7 +7,7 @@ type Props = {};
 const OffBanners = (props: Props) => {
   return (
     <div>
-      <Banner1 />
+      {/* <Banner1 /> */}
       <Banner2 />
     </div>
   );
