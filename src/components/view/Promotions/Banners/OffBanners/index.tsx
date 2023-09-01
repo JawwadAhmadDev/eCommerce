@@ -6,8 +6,8 @@ type Props = {};
 
 const OffBanners = (props: Props) => {
   return (
-    <div>
-      {/* <Banner1 /> */}
+    <div className="flex flex-col justify-between gap-4">
+      <Banner1 />
       <Banner2 />
     </div>
   );
