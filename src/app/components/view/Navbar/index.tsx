@@ -1,7 +1,7 @@
 import {
   NavbarItemType,
   navbarItems,
-} from "@/components/utils/NavbarDataAndTypes";
+} from "@/app/components/utils/NavbarDataAndTypes";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";

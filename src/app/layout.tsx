@@ -1,8 +1,8 @@
-import Navbar from "@/components/view/Navbar";
+import Navbar from "@/app/components/view/Navbar";
 import "./globals.css";
 import type { Metadata } from "next";
 import { Inter, Maven_Pro } from "next/font/google";
-import Wrapper from "@/components/shared/Wrapper";
+import Wrapper from "@/app/components/shared/Wrapper";
 import { NavbarMenuProvider } from "@/app/store/NavbarMenuContext";
 
 const inter = Maven_Pro({

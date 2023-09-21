@@ -3,7 +3,7 @@ import { NavbarContext, useMobileView } from "@/app/store/NavbarMenuContext";
 import {
   NavbarItemType,
   navbarItems,
-} from "@/components/utils/NavbarDataAndTypes";
+} from "@/app/components/utils/NavbarDataAndTypes";
 import Link from "next/link";
 import React from "react";
 import Cart from "../Cart";
