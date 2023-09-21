@@ -6,7 +6,7 @@ type Props = {};
 
 const Banner1 = (props: Props) => {
   return (
-    <div className="bg-[#efe1c7] pt-6 flex flex-col justify-between items-center">
+    <div className="bg-[#efe1c7] pt-6 flex flex-col justify-between items-center w-full lg:h-full lg:min-w-fit">
       {/* Heading */}
       <div className="pl-9 w-full">
         <p className="tracking-wider font-medium">Flex Sweatshirt</p>
@@ -15,7 +15,7 @@ const Banner1 = (props: Props) => {
       </div>
       {/* Picture */}
       <Image
-        className="mt-4"
+        className="mt-4 lg:w-[280px] lg:h-[320px]"
         src={offProduct1}
         alt="off product 1"
         width={200}

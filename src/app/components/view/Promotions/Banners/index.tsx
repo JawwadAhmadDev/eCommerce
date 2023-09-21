@@ -6,7 +6,7 @@ type Props = {};
 
 const Banners = (props: Props) => {
   return (
-    <div>
+    <div className="lg:grid lg:grid-cols-2 lg:gap-8">
       <OffBanners />
       <OffProductsBanners />
     </div>

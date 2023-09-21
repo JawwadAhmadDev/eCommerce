@@ -21,7 +21,7 @@ const Banner1 = (props: Props) => {
         alt="off picture 1"
         width="200"
         height="180"
-        className="sm:w-[250px] md:h-[220px]"
+        className="sm:w-[250px] md:h-[220px] lg:w-[220px] lg:h-[200px]"
       ></Image>
     </div>
   );
