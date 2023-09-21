@@ -6,22 +6,20 @@ type Props = {};
 
 const Banner1 = (props: Props) => {
   return (
-    <div>
+    <div className="bg-[#efe1c7] pt-6 flex flex-col justify-between items-center">
       {/* Heading */}
-      <div>
-        <p>Flex Sweatshirt</p>
-        <div className="relative">
-          <span className="">$100.00</span>
-          <span className="absolute left-0">hello</span>
-          <span>$75.00</span>
-        </div>
+      <div className="pl-9 w-full">
+        <p className="tracking-wider font-medium">Flex Sweatshirt</p>
+        <span className="line-through">$100.00</span>
+        <span className="pl-3 font-extrabold text-lg">$75.00</span>
       </div>
       {/* Picture */}
       <Image
+        className="mt-4"
         src={offProduct1}
         alt="off product 1"
-        width={100}
-        height={100}
+        width={200}
+        height={200}
       ></Image>
     </div>
   );
