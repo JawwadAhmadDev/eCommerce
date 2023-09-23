@@ -8,10 +8,10 @@ type Props = {};
 
 const Cards = (props: Props) => {
   return (
-    <div className="lg:flex lg:justify-around xl:fle">
+    <div className="lg:flex lg:justify-around">
       {/* 1st Card */}
-      <div>
-        <Link href="#">
+      <div className="hover:scale-110 duration-300">
+        <Link href="/product/1st">
           <div className="py-8 flex flex-col justify-center items-center">
             <Image
               src={firstCard}
@@ -27,8 +27,8 @@ const Cards = (props: Props) => {
       </div>
 
       {/* 2nd Card */}
-      <div className="hidden lg:block">
-        <Link href="#">
+      <div className="hidden lg:block hover:scale-110 duration-300">
+        <Link href="/product/2nd">
           <div className="py-8 flex flex-col justify-center items-center">
             <Image
               src={secondCard}
@@ -44,8 +44,8 @@ const Cards = (props: Props) => {
       </div>
 
       {/* 3rd Card */}
-      <div className="hidden xl:block">
-        <Link href="#">
+      <div className="hidden xl:block hover:scale-110 duration-300">
+        <Link href="/product/3rd">
           <div className="py-8 flex flex-col justify-center items-center">
             <Image
               src={thirdCard}
