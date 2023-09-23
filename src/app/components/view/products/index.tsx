@@ -8,8 +8,7 @@ const Products = (props: Props) => {
   return (
     <div className="py-16">
       <Headings />
-      <Cards
-       />
+      <Cards />
     </div>
   );
 };

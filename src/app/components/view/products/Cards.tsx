@@ -8,7 +8,7 @@ type Props = {};
 
 const Cards = (props: Props) => {
   return (
-    <div className="lg:flex lg:justify-around xl:flex">
+    <div className="lg:flex lg:justify-around xl:fle">
       {/* 1st Card */}
       <div>
         <Link href="#">

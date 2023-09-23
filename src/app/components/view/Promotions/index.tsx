@@ -6,7 +6,7 @@ type Props = {};
 
 const Promotions = (props: Props) => {
   return (
-    <div>
+    <div className="py-16">
       <Headings />
       <Banners />
     </div>
