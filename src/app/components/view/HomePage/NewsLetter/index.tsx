@@ -6,7 +6,7 @@ const NewsLetter = (props: Props) => {
   return (
     <div className="py-24 flex flex-col relative justify-center items-center">
       {/* Watermark */}
-      <div className="absolute inset-auto text-5xl xs:text-7xl sm:text-8xl lg:text-[8rem] text-zinc-800/10 font-extrabold tracking-wide leading-snug overflow-hidden">
+      <div className="absolute inset-auto text-5xl xs:text-7xl sm:text-8xl md:text-[8rem] lg:text-[10rem] text-zinc-800/10 font-extrabold tracking-wide leading-snug overflow-hidden">
         Newsletter
       </div>
 
