@@ -1,5 +1,5 @@
 import Image from "next/image";
-import picture from "../../../../../../public/jewellary.png";
+import picture from "../../../../../../../public/jewellary.png";
 import Link from "next/link";
 type Props = {};
 

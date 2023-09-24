@@ -1,8 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
-import firstCard from "../../../../../public/products/1st.png";
-import secondCard from "../../../../../public/products/2nd.png";
-import thirdCard from "../../../../../public/products/3rd.png";
+import firstCard from "../../../../../../public/products/1st.png";
+import secondCard from "../../../../../../public/products/2nd.png";
+import thirdCard from "../../../../../../public/products/3rd.png";
 
 type Props = {};
 

@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import offProduct2 from "../../../../../../../public/promotions/offProduct2.png";
+import offProduct2 from "../../../../../../../../public/promotions/offProduct2.png";
 
 type Props = {};
 
