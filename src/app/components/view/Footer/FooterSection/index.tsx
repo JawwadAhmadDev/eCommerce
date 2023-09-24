@@ -1,5 +1,6 @@
 import React from "react";
 import Logo from "./Logo";
+import Link from "next/link";
 
 type Props = {};
 
@@ -13,11 +14,21 @@ const FooterSection = (props: Props) => {
           Company
         </h3>
         <ul className="text-lg text-zinc-500">
-          <li className="mt-4">About</li>
-          <li className="mt-2">Terms of Use</li>
-          <li className="mt-2">Privacy Policy</li>
-          <li className="mt-2">How it Works</li>
-          <li className="mt-2">Contact Us</li>
+          <Link href="#">
+            <li className="mt-4">About</li>
+          </Link>
+          <Link href="#">
+            <li className="mt-2">Terms of Use</li>
+          </Link>
+          <Link href="#">
+            <li className="mt-2">Privacy Policy</li>
+          </Link>
+          <Link href="#">
+            <li className="mt-2">How it Works</li>
+          </Link>
+          <Link href="#">
+            <li className="mt-2">Contact Us</li>
+          </Link>
         </ul>
       </div>
 
@@ -27,9 +38,15 @@ const FooterSection = (props: Props) => {
           Support
         </h3>
         <ul className="text-lg text-zinc-500">
-          <li className="mt-4">Support Carrer</li>
-          <li className="mt-2">24th Service</li>
-          <li className="mt-2">Quick Chat</li>
+          <Link href="#">
+            <li className="mt-4">Support Carrer</li>
+          </Link>
+          <Link href="#">
+            <li className="mt-2">24th Service</li>
+          </Link>
+          <Link href="#">
+            <li className="mt-2">Quick Chat</li>
+          </Link>
         </ul>
       </div>
 
@@ -39,8 +56,12 @@ const FooterSection = (props: Props) => {
           Contact
         </h3>
         <ul className="text-lg text-zinc-500">
-          <li className="mt-4">Whatsapp</li>
-          <li className="mt-2">Support 24th</li>
+          <Link href="#">
+            <li className="mt-4">Whatsapp</li>
+          </Link>
+          <Link href="#">
+            <li className="mt-2">Support 24th</li>
+          </Link>
         </ul>
       </div>
     </div>
