@@ -9,7 +9,7 @@ const Jewellary = (props: Props) => {
     <div>
       {/* Heading */}
       <div className="py-8 xl:mt-16 flex lg:justify-center xl:justify-end">
-        <h1 className="text-5xl font-semibold tracking-wide leading-snug lg:w-4/5 xl:w-[45%]">
+        <h1 className="text-5xl font-bold tracking-wide leading-snug lg:w-4/5 xl:w-[45%]">
           Unique and Authentic Vintage Designer Jewellery
         </h1>
       </div>

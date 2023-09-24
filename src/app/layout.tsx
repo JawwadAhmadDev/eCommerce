@@ -7,7 +7,7 @@ import { NavbarMenuProvider } from "@/app/store/NavbarMenuContext";
 
 const inter = Maven_Pro({
   subsets: ["latin"],
-  weight: ["400", "500", "600", "700", "800", "900"],
+  weight: ["400", "500", "600", "700", "800"],
 });
 
 export const metadata: Metadata = {

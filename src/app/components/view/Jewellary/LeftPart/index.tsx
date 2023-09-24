@@ -8,7 +8,7 @@ const LeftPart = (props: Props) => {
       {/* Portions */}
       <div className="relative grid grid-cols-2 justify-between place-items-center gap-8">
         {/* WaterMark */}
-        <h1 className="absolute inset-auto text-7xl sm:text-8xl lg:text-[6.5rem] text-zinc-800/10 font-extrabold tracking-wide leading-snug overflow-hidden">
+        <h1 className="absolute inset-auto text-6xl sm:text-8xl lg:text-[6.5rem] text-zinc-800/10 font-extrabold tracking-wide leading-snug overflow-hidden">
           Different from others
         </h1>
 

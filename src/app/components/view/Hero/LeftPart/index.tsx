@@ -10,7 +10,7 @@ const LeftPart = (props: Props) => {
       <SaleButton />
 
       {/* Industrial Text */}
-      <h1 className="text-6xl xl:text-6xl  font-extrabold">
+      <h1 className="text-5xl xl:text-6xl  font-extrabold">
         An Industrial Take on Streetwear
       </h1>
 
