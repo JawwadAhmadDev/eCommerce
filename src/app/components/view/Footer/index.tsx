@@ -1,26 +1,13 @@
-import React from "react";
-import Logo from "./Logo";
+import Copyright from "./Copyright";
+import FooterSection from "./FooterSection";
 
 type Props = {};
 
 const Footer = (props: Props) => {
   return (
     <footer>
-      {/* Footer */}
-      <div>
-        <Logo />
-        {/* Company Links */}
-        <div></div>
-
-        {/* Support Links */}
-        <div></div>
-
-        {/* Contact Links */}
-        <div></div>
-      </div>
-
-      {/* Copyright */}
-      <div></div>
+      <FooterSection />
+      <Copyright />
     </footer>
   );
 };
