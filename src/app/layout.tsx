@@ -4,6 +4,7 @@ import type { Metadata } from "next";
 import { Inter, Maven_Pro } from "next/font/google";
 import Wrapper from "@/app/components/shared/Wrapper";
 import { NavbarMenuProvider } from "@/app/store/NavbarMenuContext";
+import Footer from "./components/view/Footer";
 
 const inter = Maven_Pro({
   subsets: ["latin"],
@@ -28,6 +29,7 @@ export default function RootLayout({
             <Navbar />
           </NavbarMenuProvider>
           {children}
+          <Footer />
         </Wrapper>
       </body>
     </html>
