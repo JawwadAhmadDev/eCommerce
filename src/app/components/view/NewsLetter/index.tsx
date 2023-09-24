@@ -5,6 +5,7 @@ type Props = {};
 const NewsLetter = (props: Props) => {
   return (
     <div className="py-24 flex flex-col relative justify-center items-center">
+      {/* Watermark */}
       <div className="absolute inset-auto text-5xl xs:text-7xl sm:text-8xl lg:text-[8rem] text-zinc-800/10 font-extrabold tracking-wide leading-snug overflow-hidden">
         Newsletter
       </div>
@@ -17,6 +18,7 @@ const NewsLetter = (props: Props) => {
         Get the latest information and promo offers directly
       </p>
 
+      {/* Form */}
       <form
         action=""
         className="flex flex-col sm:flex-row sm:gap-2 justify-center items-center"
