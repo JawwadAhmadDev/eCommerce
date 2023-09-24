@@ -5,7 +5,7 @@ type Props = {};
 
 const Banner1 = (props: Props) => {
   return (
-    <div className="bg-[#d6d6d8] px-8 pt-8 flex flex-col justify-between items-center xs:flex-row xs:px-8 sm:pt-0">
+    <div className="bg-[#d6d6d8] px-8 pt-8 flex flex-col justify-between items-center xs:flex-row xs:px-8 sm:pt-0 shadow-lg">
       {/* Heading */}
       <div>
         <h3 className="text-[1.75rem] uppercase font-extrabold tracking-wide ">

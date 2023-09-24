@@ -16,7 +16,7 @@ const Cards = (props: Props) => {
             <Image
               src={firstCard}
               alt="2nd Card"
-              className="w-[300px] h-[320px] sm:w-[380px] sm:h-[400px]"
+              className="w-[300px] h-[320px] sm:w-[380px] sm:h-[400px] shadow-lg"
             />
             <p className="text-xl font-semibold tracking-wider mt-2">
               Brushed Reglan Sweatshirt
@@ -33,7 +33,7 @@ const Cards = (props: Props) => {
             <Image
               src={secondCard}
               alt="3rd Card"
-              className="w-[300px] h-[320px] sm:w-[380px] sm:h-[400px]"
+              className="w-[300px] h-[320px] sm:w-[380px] sm:h-[400px] shadow-lg"
             />
             <p className="text-xl font-semibold tracking-wider mt-2">
               Cameryn Sash Tie Dress
@@ -50,7 +50,7 @@ const Cards = (props: Props) => {
             <Image
               src={thirdCard}
               alt="1st Card"
-              className="w-[300px] h-[320px] sm:w-[380px] sm:h-[400px]"
+              className="w-[300px] h-[320px] sm:w-[380px] sm:h-[400px] shadow-lg"
             />
             <p className="text-xl font-semibold tracking-wider mt-2">
               Flex Sweatshirt

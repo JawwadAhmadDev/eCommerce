@@ -10,7 +10,7 @@ const RightPart = (props: Props) => {
       <Image
         src={picture}
         alt="Jewellary picture"
-        className="w-[300px] h-[350px]"
+        className="w-[300px] h-[350px] shadow-lg"
       />
 
       <div className="flex flex-col gap-8">

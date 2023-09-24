@@ -6,7 +6,7 @@ type Props = {};
 
 const Banner1 = (props: Props) => {
   return (
-    <div className="bg-[#efe1c7] pt-6 flex flex-col justify-between items-center w-full lg:h-full lg:min-w-fit">
+    <div className="bg-[#efe1c7] pt-6 flex flex-col justify-between items-center w-full lg:h-full lg:min-w-fit shadow-lg">
       {/* Heading */}
       <div className="pl-9 w-full">
         <p className="tracking-wider font-medium">Flex Sweatshirt</p>
